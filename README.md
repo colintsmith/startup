@@ -12,11 +12,11 @@ Have you ever thought you were the smartest person in the room? Or maybe you thi
 ![screenshot of my design for the last page](/lastpagedraft.jpg)
 
 ### Key Features:
-Secure login over HTTPS
-Display choice of rock, paper, scissors for user to interact with
-A score page to keep track of the users who have won the most games in a  row
-A page describing the rules of rock, paper, scissors for new users
-A short paragraph describing the history of the game and why it is being used in this format
+Secure login over HTTPS  
+Display choice of rock, paper, scissors for user to interact with  
+A score page to keep track of the users who have won the most games in a  row  
+A page describing the rules of rock, paper, scissors for new users  
+A short paragraph describing the history of the game and why it is being used in this format  
 
 ### Technologies:
 HTML: I am going to use four HTML pages: one for the log in, one for the game, one to display high scores, and the last to give a description of the game.
