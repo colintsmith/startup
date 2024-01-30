@@ -7,3 +7,12 @@ First iteration of the internet was the ARPANET used for communicating between u
 Two big organizations manage the internet: the IETF and ICANN  
 IETF = internet engineering task force  
 ICANN = the Internet corporationof assigned names and numbers  
+
+
+
+
+
+# HTML notes
+We separate HTML into elements and tags. Text is okay and can be used as an element. A tag can enclose an element to specify what it is.  
+Every HTML element can have attributes. Attributes go in tag brackets and the actual attribute can have quotation marks around it.  
+Comments are surrounded by two dashes.  
