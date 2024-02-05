@@ -26,3 +26,10 @@ Web Service: Web Service will be used with endpoints for login, retrieving user 
 Database: My database will store user information like username and password, and also keep track of the high scores by each of the users.  
 Web Sockets: Web Sockets will be used to keep track of realtime score leaders of the game.  
 React: My application will use React to add components and request routing.  
+
+### HTML pages
+I built HTML pages for each of the pages in my website.  
+index.html: in this page the user will be able to log in or register a new account to keep track of scores.  
+play.html: on this page the user will be able to play the game and keep track of how many games in a row they have won  
+scores.html: this page will allow the user to see the top scores of the users that have played the game.  
+about.html: this page will allow the user to learn the rules of the game and learn a short history of rock, paper, scissors
