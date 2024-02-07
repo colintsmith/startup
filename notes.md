@@ -39,3 +39,8 @@ moves an element to right or left of its container element and allows inline ele
 
 ## grid and flexbox  
 Both CSS display modes that respond to screen sizes to poisition and resize thier child elements.
+
+### grid  
+This layout is useful for displaying group of child elements in a responsive grid  
+
+### flexbox  
