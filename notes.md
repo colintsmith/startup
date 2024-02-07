@@ -44,3 +44,4 @@ Both CSS display modes that respond to screen sizes to poisition and resize thie
 This layout is useful for displaying group of child elements in a responsive grid  
 
 ### flexbox  
+useful for when you want to partition your application into areas that responsively move around as the window resizes. 
