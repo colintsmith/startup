@@ -16,3 +16,26 @@ ICANN = the Internet corporationof assigned names and numbers
 We separate HTML into elements and tags. Text is okay and can be used as an element. A tag can enclose an element to specify what it is.  
 Every HTML element can have attributes. Attributes go in tag brackets and the actual attribute can have quotation marks around it.  
 Comments are surrounded by two dashes.  
+
+# responsive desing notes
+Ability to reconfigure the interface so the applicaiton accomodates screen size regardless of decice.  
+options in CSS:  
+none - dont display element  
+block - display element with width that fills its parent element  
+inline - display element with width only as big as content  
+flex - Display elemnt's children in a flexible orientation  
+grid - display this element's children in a grid orientation  
+  
+  div elements have a display property value of block by default.  
+
+## meta tag  
+meta tag allows an entire website to be viewable on mobile devices. Meta tag is included in head element of all HTML pages  
+
+## Float  
+moves an element to right or left of its container element and allows inline elements to wrap around it.  
+
+## media queries  
+@ media slector dynamically detects size and orientation of the device and applies CSS rules to represent the structure of HTML to accomodate.
+
+## grid and flexbox  
+Both CSS display modes that respond to screen sizes to poisition and resize thier child elements.
