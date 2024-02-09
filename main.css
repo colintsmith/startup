@@ -5,6 +5,7 @@ body {
   }
 header {
     flex: 0 60px;
+    align-items: center;
 }
 main {
     flex: 1 calc(100vh - 110px);
@@ -22,6 +23,10 @@ menu {
     flex-direction: row !important;
     list-style: none;
 }
+.navbar-brand {
+    padding-left: 0.3em;
+    border-bottom: solid rgb(182, 182, 182) thin;
+  }
 menu .nav-item {
     padding: 0 0.3em;
   }
