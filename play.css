@@ -11,3 +11,8 @@
   grid-template-columns: 1fr 1fr;
   gap: 20px;
 }
+.choice {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
