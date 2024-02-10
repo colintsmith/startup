@@ -5,7 +5,6 @@ body {
   }
 header {
     flex: 0 60px;
-    align-items: center;
 }
 main {
     flex: 1 calc(100vh - 110px);
