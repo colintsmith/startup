@@ -15,7 +15,7 @@ main {
     justify-content: space-around;
 }
 footer{
-    flex: 0 70px;
+    flex: 0 30px;
 }
 menu {
     flex: 1;
