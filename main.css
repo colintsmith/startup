@@ -9,6 +9,18 @@ header {
 .header {
     text-align: center;
 }
+.menu {
+    text-align: center;
+  }
+  
+  .menu menu {
+    display: inline-block;
+  }
+  
+  .navItem {
+    display: inline;
+  }
+  
 main {
     flex: 1 calc(100vh - 110px);
     display: flex;
