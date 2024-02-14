@@ -33,3 +33,15 @@ index.html: in this page the user will be able to log in or register a new accou
 play.html: on this page the user will be able to play the game and keep track of how many games in a row they have won  
 scores.html: this page will allow the user to see the top scores of the users that have played the game.  
 about.html: this page will allow the user to learn the rules of the game and learn a short history of rock, paper, scissors
+
+### CSS pages
+I created and wrote pages for the css of each of the HTML pages in my website. I also updated the HTML code to incorporate the bootstrap style framework.  
+The following CSS pages were created and written for this deliverable:  
+main.css  
+play.css  
+about.css  
+I also update the following HTML pages for styling:  
+indext.html  
+play.html  
+scores.html  
+about.html  
