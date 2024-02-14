@@ -6,6 +6,9 @@ body {
 header {
     flex: 0 60px;
 }
+.header {
+    text-align: center;
+}
 main {
     flex: 1 calc(100vh - 110px);
     display: flex;
