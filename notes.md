@@ -70,4 +70,7 @@ Used the same way all the other coding languages do it. Just know that finally i
 ## destructuring  
 Destructuring is pulling items out of an array. Say 'a' is an array with like 4 numbers in it:  
 const [b,c] = a;  
-with that would set b and c equal to the first two numbers in the a array. 
+with that would set b and c equal to the first two numbers in the a array.  
+this works also with the rest triple thing if you do this:  
+const [b,c,...end] = a  
+this would be the same but the end variable would be the rest of the array
