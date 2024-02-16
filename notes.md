@@ -62,4 +62,12 @@ using test just returns something as true
 You can use a rest to create like an optional parameter in a function by putting three ... behind it
 
 ## spread 
-I am not understanding this one
+I am not understanding this one  
+
+## try, catch, throw
+Used the same way all the other coding languages do it. Just know that finally is always executed at the end. 
+
+## destructuring  
+Destructuring is pulling items out of an array. Say 'a' is an array with like 4 numbers in it:  
+const [b,c] = a;  
+with that would set b and c equal to the first two numbers in the a array. 
