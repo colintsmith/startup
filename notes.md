@@ -45,3 +45,15 @@ This layout is useful for displaying group of child elements in a responsive gri
 
 ### flexbox  
 useful for when you want to partition your application into areas that responsively move around as the window resizes. 
+
+# Javascript notes  
+
+## regular expresions  
+Regular expressions are built into java script. You can do it by creating a new function or doing it another way  
+the other way => const literalRegex = /ab*/i;  
+
+or: onst objRegex = new RegExp('ab*', 'i');  
+commands with regular expressions:  
+text.match(reg) - match returns the things in text that match the regular expression.  
+text.replace(reg, something) - replace the regular expressions in text with something  
+using test just returns something as true
