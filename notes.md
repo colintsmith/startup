@@ -56,4 +56,10 @@ or: onst objRegex = new RegExp('ab*', 'i');
 commands with regular expressions:  
 text.match(reg) - match returns the things in text that match the regular expression.  
 text.replace(reg, something) - replace the regular expressions in text with something  
-using test just returns something as true
+using test just returns something as true  
+
+## Rest  
+You can use a rest to create like an optional parameter in a function by putting three ... behind it
+
+## spread 
+I am not understanding this one
