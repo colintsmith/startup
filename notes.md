@@ -97,3 +97,16 @@ map(i => i+i) run function to map an array to a new array
 filter(i => i%2) = run function to remove items  
 every(i => i < 3) = run function to test if all items match  
 some = same thing as above but if any items match  
+
+## modules  
+if you want to use a module you have created you have to export specific functions and then import the file in another file.: import { alertDisplay } from './alert.js';  
+to use a module in HTML use script type="module"  
+then import whatever function you want to use
+
+## DOM
+### Event listeners  
+clipboard = cut copy or paste  
+focus = an element gets focust  
+keyboard = keys are pressed  
+mouse = click event  
+text selection = when text is selected  
