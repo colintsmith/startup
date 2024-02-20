@@ -110,3 +110,15 @@ focus = an element gets focust
 keyboard = keys are pressed  
 mouse = click event  
 text selection = when text is selected  
+
+## Promise
+This lets you run things in parallel  
+three states of a promise object:  
+Pending  
+Fulfilled  
+Rejected  
+to create a promise object, just call the promise object constructor: new promise(resolve, reject)  
+The two parameters are the two parameters that the object takes, resolve sets it to fulfilled, reject sets sets it to rejected
+set timeout function allows you to wait a set number of milliseconds until a function is done  
+### Then, catch, finally
+These are the three functions of a promise object: then is called when a promise is fulfilled, catch is calle dif a promise is rejected, and finally is always called at the end. 
