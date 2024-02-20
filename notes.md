@@ -74,3 +74,26 @@ with that would set b and c equal to the first two numbers in the a array.
 this works also with the rest triple thing if you do this:  
 const [b,c,...end] = a  
 this would be the same but the end variable would be the rest of the array
+
+
+## Scope  
+Var describes the variable, like const or let, except that it ignores scope so it can be tricky  
+### this
+global this is refers to the actual environment  
+this in a function refers to the object that owns the function  
+in an object, this refers to the object itself.
+NEED TO STUDY THIS MORE  
+
+## arrays
+Array functions:
+push = add item to end of array  
+pop = remove item from end of array  
+slice(start, end) = return sub array  
+sort = run a function to sort an array in place  
+values = creates an iterator for use with a for of loop (iterate through values)  
+find( i => i < 2>) = run a function on each array item  
+reduce((a,c) => a + c) = run function to reduce each array item to a single item  
+map(i => i+i) run function to map an array to a new array  
+filter(i => i%2) = run function to remove items  
+every(i => i < 3) = run function to test if all items match  
+some = same thing as above but if any items match  
