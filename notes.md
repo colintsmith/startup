@@ -121,4 +121,9 @@ to create a promise object, just call the promise object constructor: new promis
 The two parameters are the two parameters that the object takes, resolve sets it to fulfilled, reject sets sets it to rejected
 set timeout function allows you to wait a set number of milliseconds until a function is done  
 ### Then, catch, finally
-These are the three functions of a promise object: then is called when a promise is fulfilled, catch is calle dif a promise is rejected, and finally is always called at the end. 
+These are the three functions of a promise object: then is called when a promise is fulfilled, catch is called if a promise is rejected, and finally is always called at the end. 
+
+## async/await
+await keyword wraps execution of a promise. It will block until promise state moves to fulfilled or throws an exception if the state moves to rejected.  
+async changes the function so that it returns a promise that will resolve to the value that was previously returned by the function.  
+Async means that a function returns a promise. The await keyword wraps a call to async function, blocks execution utnil it is resolved and then returns the result.
