@@ -127,3 +127,19 @@ These are the three functions of a promise object: then is called when a promise
 await keyword wraps execution of a promise. It will block until promise state moves to fulfilled or throws an exception if the state moves to rejected.  
 async changes the function so that it returns a promise that will resolve to the value that was previously returned by the function.  
 Async means that a function returns a promise. The await keyword wraps a call to async function, blocks execution utnil it is resolved and then returns the result.
+
+# Midterm review  
+There are several ways to include javascrip in your HTML file. You can just lable it as script, include it as a source file, include it as an onclick. However labeling it as javascript is not anything.  
+
+You can import into CSS different fonts and stuff by using @import url('your url here')  
+
+Arrow function syntax is very important. Declares a function  
+
+Know the order of the CSS box model!!  
+Margin, border, padding, content (in middle)  
+
+CSS property padding puts space around the content of selected elements.  
+
+TODO: FIGURE OUT WHAT COLUMNS MEANS AS OPPOSED TO ROW (columns means everthing is in the same column up and down, if it was rows then everything in the same content thing would be one row)  
+
+There is a difference between list and unordered list. ul is unordered list, li is an ordered list.
