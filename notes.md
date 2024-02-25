@@ -191,6 +191,20 @@ Array - an ordered sequence of any type
 Map - A collection of key balue pairs  
 JSON - data interchange format  
 
+## string functions  
+Length - number of characters in the string  
+indexOf() = the starting index of a given substring  
+split() - split the string into an array on the given delimiter string  
+startsWith = true if the string has a given prefix
+endsWith = same
+toLowerCase = converts all characters to lowercase  
+
+## function stuff  
+If parameter is not provided, it is labeled as undefined  
+
+## arrow functions  
+if no curly braces, then no return keyword is needed. If there are curly braces then you have to return something or just make it a background function.
+
 ## regular expresions  
 Regular expressions are built into java script. You can do it by creating a new function or doing it another way  
 the other way => const literalRegex = /ab*/i;  
