@@ -100,6 +100,25 @@ video - video content
 svg - scalable vector graphic content  
 iframe - inline fram of another HTML page  
 
+## user input elements  
+form - input container and submission  
+fieldset - labeled input grouping  
+input - multiple types of user input  
+select - dropdown  
+optgroup - grouped selection dropdown  
+option - selection option  
+textarea - multiline text input  
+label - individual input label  
+output - output of input  
+meter - display value with a known range  
+
+### common attributes for user input elements  
+name - name of the input  
+disabled  
+value  
+required  
+
+
 # responsive desing notes
 Ability to reconfigure the interface so the applicaiton accomodates screen size regardless of decice.  
 options in CSS:  
