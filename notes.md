@@ -36,6 +36,7 @@ pint = check if a websiete is up
 tracert = race the connections to a website  
 dig = Show the DNS information for a domain  
 man = Look up a command in the manual  
+You can chain commands together | is a pipe that passes one caommand to the other. > overwrites something. >> appends something.  
 
 # HTML notes
 We separate HTML into elements and tags. Text is okay and can be used as an element. A tag can enclose an element to specify what it is.  
