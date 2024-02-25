@@ -118,6 +118,14 @@ disabled
 value  
 required  
 
+# CSS notes  
+
+## combinators  
+descendents: body section
+child: section > p
+General sibling: div ~ p
+adjacent sibling: div + p
+
 
 # responsive desing notes
 Ability to reconfigure the interface so the applicaiton accomodates screen size regardless of decice.  
