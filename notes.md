@@ -180,6 +180,9 @@ BigInt
 String  
 Symbol - unique value  
 
+The difference between == and === is that the == will show equal between different types, === has to be the exact same type of things.  
+and and or 
+
 ## object types in javascript  
 Object - collection of properties  
 function - object that has the ability to be called  
