@@ -165,6 +165,21 @@ useful for when you want to partition your application into areas that responsiv
 
 # Javascript notes  
 
+count tells you how many time a code is called.  
+
+you can add javascript to HTML by using the script or by using script src=.  Also if you do onclick and put it in quotes.  
+
+let and const declare variables. Const means you cant change the variable.  
+
+## primitve types in javascript  
+Null - has not been assigned  
+Undefined - has not been defined  
+Boolean  
+Number  
+BigInt  
+String  
+Symbol - unique value  
+
 ## regular expresions  
 Regular expressions are built into java script. You can do it by creating a new function or doing it another way  
 the other way => const literalRegex = /ab*/i;  
