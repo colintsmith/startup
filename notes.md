@@ -121,10 +121,15 @@ required
 # CSS notes  
 
 ## combinators  
-descendents: body section
-child: section > p
-General sibling: div ~ p
-adjacent sibling: div + p
+descendents: body section  
+child: section > p  
+General sibling: div ~ p  
+adjacent sibling: div + p  
+
+## selectors  
+class selectors is .  
+ID selector is #  
+units can be in pixels, inches, percentages, minimum viewport dimension, or multiplier of size of letter m (em).
 
 
 # responsive desing notes
