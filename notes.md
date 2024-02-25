@@ -229,7 +229,7 @@ g - global search
 You can use a rest to create like an optional parameter in a function by putting three ... behind it. It can signify multiple or no parameters
 
 ## spread 
-I am not understanding this one  
+When the three dots are in the call of the function, then it can be expanded to the amount of parameters needed.  
 
 ## try, catch, throw
 Used the same way all the other coding languages do it. Just know that finally is always executed at the end. 
