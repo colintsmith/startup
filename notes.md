@@ -215,6 +215,16 @@ text.match(reg) - match returns the things in text that match the regular expres
 text.replace(reg, something) - replace the regular expressions in text with something  
 using test just returns something as true  
 
+Deeper reading: reg expressions are enclosed within /s. * means 0 or more of preceding symbol. Backslash makes special symbol literal symbols ex: \* just searches for an actual *. Letters after slashes are descriptors:  
+d -generate indices for matches  
+g - global search  
+ i - case insensitive  
+ m - allows ^ and $ to match to newline caharacters  
+ s - allows . to match newline characters  
+ u - unicode; treat a pattern as a sequence of unicode  
+ v - an upgrade to u mode with more unicode features  
+ y - perform a sticky search starting at the current position in the target string.
+
 ## Rest  
 You can use a rest to create like an optional parameter in a function by putting three ... behind it
 
