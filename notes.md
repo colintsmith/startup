@@ -256,7 +256,19 @@ every(i => i < 3) = run function to test if all items match
 some = same thing as above but if any items match 
 
 ## JSON formats
-String, number, boolean, array, object {"a":1, "b":"someithng"}, null
+String, number, boolean, array, object {"a":1, "b":"someithng"}, null  
+
+## object and classes  
+object can be created with a cal too Object() like this:  
+cost obj = new Object({a:3});  
+obj['b'] = 'fish;
+obj.c = [1,2,3];
+obj.hello = fucntion () {
+  console.log('something');
+}
+All valid  
+
+
 
 ## modules  
 if you want to use a module you have created you have to export specific functions and then import the file in another file.: import { alertDisplay } from './alert.js';  
