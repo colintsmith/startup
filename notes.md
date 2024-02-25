@@ -143,3 +143,10 @@ CSS property padding puts space around the content of selected elements.
 TODO: FIGURE OUT WHAT COLUMNS MEANS AS OPPOSED TO ROW (columns means everthing is in the same column up and down, if it was rows then everything in the same content thing would be one row)  
 
 There is a difference between list and unordered list. ul is unordered list, li is an ordered list.
+
+chmod makes a script executable form the console.
+TODO: READ THE INSTRUCTION PAGE ON MODULE COMMANDS
+
+join() joins things in a list. If it has a parameter it includes it between each thing in the list.  
+
+subdomain is everything under a root domain.  
