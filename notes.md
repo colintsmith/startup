@@ -9,8 +9,33 @@ IETF = internet engineering task force
 ICANN = the Internet corporationof assigned names and numbers  
 
 
-
-
+# Consol commands  
+echo = ouptut something  
+cd = change directory  
+mkdir = make directory  
+rmdir = remove directory  
+rm = remove a file  
+mv = move a file  
+cp = copy file  
+ls = list files  
+curl = command line client URL browser  
+grep = regular expression search  
+find = find files  
+top = View running processes with CPU and memory usage  
+df = view disk statistics  
+cat = output the contents of a file  
+less = interactively output the contents of a file  
+wc = word count  
+ps = view currently running processes  
+kill = stop a currently running process  
+sudo = Execute a command as a super user (admin)  
+ssh = Create a secure shell on a remote computer  
+scp = Securely copy files to a remote computer  
+history = show command history  
+pint = check if a websiete is up  
+tracert = race the connections to a website  
+dig = Show the DNS information for a domain  
+man = Look up a command in the manual  
 
 # HTML notes
 We separate HTML into elements and tags. Text is okay and can be used as an element. A tag can enclose an element to specify what it is.  
