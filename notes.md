@@ -94,7 +94,7 @@ values = creates an iterator for use with a for of loop (iterate through values)
 find( i => i < 2>) = run a function on each array item  
 reduce((a,c) => a + c) = run function to reduce each array item to a single item  
 map(i => i+i) run function to map an array to a new array  
-filter(i => i%2) = run function to remove items  
+filter(i => i%2) = run function to remove items, removes items that do not match the filter?
 every(i => i < 3) = run function to test if all items match  
 some = same thing as above but if any items match  
 
@@ -150,3 +150,29 @@ TODO: READ THE INSTRUCTION PAGE ON MODULE COMMANDS
 join() joins things in a list. If it has a parameter it includes it between each thing in the list.  
 
 subdomain is everything under a root domain.  
+
+TODO: What is TLD (top level domain)  
+
+Await causes every thing to stop until promise resolves.  
+
+TODO: figure out regular expressions.   
+
+The query selector for event listeners adds the listener to only the first thing that matches the selector (just the first list if your selecting lists)  
+
+div stands for division  
+
+DOM text content sets the child text of an element  
+
+Java script objects are created using colons not equals.  
+
+a href is how to create a hyperlink in HTML  
+
+JSON are only double quotes with a colon  
+
+DNA record type: A record = name to IP address. TXT maps to text value. SOA is how to link up DNS record to someone else (not sure on this one). CNAME is an alias that links to different host list.   
+
+if you use 'function' to create a function, DO NOT USE AN EQUALS SIGN, GO STRAIGHT TO CURLY BRACES  
+
+For CSS: if no dot, that is the actual element name. After the dot it is the class name  
+
+IF NO AWAIT AND THERE IS A PROMISE, THE THING WONT WAIT FOR THE PROMISE AND WILL CONTINUE WITH REST OF CODE.
