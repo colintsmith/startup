@@ -65,6 +65,41 @@ We separate HTML into elements and tags. Text is okay and can be used as an elem
 Every HTML element can have attributes. Attributes go in tag brackets and the actual attribute can have quotation marks around it.  
 Comments are surrounded by two dashes.  
 
+## Common elements:  
+html - page container  
+head - header info  
+title - title of page  
+meta - metadat for page  
+script - javascript reference  
+include - external content reference  
+body - the entire content body of the page  
+header - header of the main content  
+footer - footer  
+nav - naviagtational inputs  
+main - main content  
+section - section of the main content  
+aside - aside form the main content  
+div - block division of content  
+span - inline span of content  
+h<> - text heading 1-9  
+p - paragraph  
+b - bring attention  
+table - table  
+tr - table row  
+th - table ehader  
+td - table data  
+ol, ul - ordered or unordered list  
+li - list item  
+a - anchor the text to a hyperlink  
+img - graphical image reference  
+dialog - interactive component such as a confirmation  
+form - a collection of user input  
+input - user input field  
+audio - audio content  
+video - video content  
+svg - scalable vector graphic content  
+iframe - inline fram of another HTML page  
+
 # responsive desing notes
 Ability to reconfigure the interface so the applicaiton accomodates screen size regardless of decice.  
 options in CSS:  
