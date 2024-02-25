@@ -36,7 +36,29 @@ pint = check if a websiete is up
 tracert = race the connections to a website  
 dig = Show the DNS information for a domain  
 man = Look up a command in the manual  
-You can chain commands together | is a pipe that passes one caommand to the other. > overwrites something. >> appends something.  control C kills a command.
+You can chain commands together | is a pipe that passes one caommand to the other. > overwrites something. >> appends something.  control C kills a command.  
+
+# VI commands  
+:h - help  
+i - insert mode  
+u- undo  
+ctrl-r - redo  
+gg - go to beginning of file  
+G - go to end  
+/ - search for what you type after  
+n - next search match  
+N - previous search match  
+v - visually select text  
+y - yank or copy  
+p - paste  
+ctrl -wv - split window vertically
+ctrl -ww - toggle windows  
+ctrl -wq - close current window  
+:e - open a file  
+:w - write file (save)  
+:q - quit  
+
+
 
 # HTML notes
 We separate HTML into elements and tags. Text is okay and can be used as an element. A tag can enclose an element to specify what it is.  
