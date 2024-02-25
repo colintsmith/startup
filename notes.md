@@ -180,6 +180,14 @@ BigInt
 String  
 Symbol - unique value  
 
+## object types in javascript  
+Object - collection of properties  
+function - object that has the ability to be called  
+Date - calendar dates and times  
+Array - an ordered sequence of any type  
+Map - A collection of key balue pairs  
+JSON - data interchange format  
+
 ## regular expresions  
 Regular expressions are built into java script. You can do it by creating a new function or doing it another way  
 the other way => const literalRegex = /ab*/i;  
