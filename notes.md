@@ -267,6 +267,9 @@ obj.hello = fucntion () {
   console.log('something');
 }
 All valid  
+You can call for entries, keys, and values to see the lists.
+Any function that returns an object is a constructor  
+
 
 
 
