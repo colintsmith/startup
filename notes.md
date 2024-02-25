@@ -253,7 +253,10 @@ reduce((a,c) => a + c) = run function to reduce each array item to a single item
 map(i => i+i) run function to map an array to a new array  
 filter(i => i%2) = run function to remove items, removes items that do not match the filter?
 every(i => i < 3) = run function to test if all items match  
-some = same thing as above but if any items match  
+some = same thing as above but if any items match 
+
+## JSON formats
+String, number, boolean, array, object {"a":1, "b":"someithng"}, null
 
 ## modules  
 if you want to use a module you have created you have to export specific functions and then import the file in another file.: import { alertDisplay } from './alert.js';  
