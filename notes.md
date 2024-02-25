@@ -131,6 +131,8 @@ class selectors is .
 ID selector is #  
 units can be in pixels, inches, percentages, minimum viewport dimension, or multiplier of size of letter m (em).
 
+## animation  
+label it in the brackets with animation-name, then at the bottom you can add @keyframse _____ (the name). In the brackets you can put from {} and to {}. you can add percentage with brackets if like halfway you wanted to add soemthing else.
 
 # responsive desing notes
 Ability to reconfigure the interface so the applicaiton accomodates screen size regardless of decice.  
