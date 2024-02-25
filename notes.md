@@ -226,7 +226,7 @@ g - global search
  y - perform a sticky search starting at the current position in the target string.
 
 ## Rest  
-You can use a rest to create like an optional parameter in a function by putting three ... behind it
+You can use a rest to create like an optional parameter in a function by putting three ... behind it. It can signify multiple or no parameters
 
 ## spread 
 I am not understanding this one  
