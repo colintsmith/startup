@@ -285,6 +285,7 @@ Any function that returns an object is a constructor
 
 ## modules  
 if you want to use a module you have created you have to export specific functions and then import the file in another file.: import { alertDisplay } from './alert.js';  
+On the Java side you have to label it has an export function
 to use a module in HTML use script type="module"  
 then import whatever function you want to use
 
