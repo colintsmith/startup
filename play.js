@@ -39,6 +39,19 @@ class Game {
         console.log("game reset")
     }
 
+    playerChoiceSelected(choice) {
+        let computerItem = generateComputerItem();
+        if(choice === "rock") {
+            console.log("rock selected");
+        }
+        if(choice === "paper") {
+            console.log("paper selected");
+        }
+        if(choice === "scissors") {
+            console.log("scissors selected");
+        }
+    }
+
 
 }
 
