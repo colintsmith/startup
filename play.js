@@ -16,13 +16,13 @@ class Game {
     generateComputerItem() {
         let comp = Math.floor(Math.random() * 3) + 1;
         if(comp === 1) {
-            return "rock"
+            return "rock";
         }
         if(comp === 2) {
-            return "paper"
+            return "paper";
         }
         if(comp === 3) {
-            return "scissors"
+            return "scissors";
         }
     }
 
@@ -40,7 +40,7 @@ class Game {
     }
 
     playerChoiceSelected(choice) {
-        let computerItem = generateComputerItem();
+        //let computerItem = generateComputerItem();
         if(choice === "rock") {
             console.log("rock selected");
         }
@@ -50,6 +50,18 @@ class Game {
         if(choice === "scissors") {
             console.log("scissors selected");
         }
+    }
+
+    rockSelected() {
+        this.playerChoiceSelected("rock")
+    }
+
+    paperSelected(){
+        this.playerChoiceSelected("paper")
+    }
+
+    scissorsSelected(){
+        this.playerChoiceSelected("scissors")
     }
 
 
