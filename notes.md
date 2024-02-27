@@ -337,11 +337,9 @@ join() joins things in a list. If it has a parameter it includes it between each
 
 subdomain is everything under a root domain.  
 
-TODO: What is TLD (top level domain)  
+TODO: What is TLD (top level domain) - last part of a domain name  
 
-Await causes every thing to stop until promise resolves.  
-
-TODO: figure out regular expressions.   
+Await causes every thing to stop until promise resolves.    
 
 The query selector for event listeners adds the listener to only the first thing that matches the selector (just the first list if your selecting lists)  
 
