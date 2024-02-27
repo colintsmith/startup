@@ -7,9 +7,10 @@ class Game {
     roundsWon;
 
     constructor() {
-        playerItem = 0;
-        computerItem = 0;
-        roundsWon = 0;
+        this.playerItem = 0;
+        this.computerItem = 0;
+        this.roundsWon = 0;
+        console.log("game initiated");
     }
 
     generateComputerItem() {
@@ -35,9 +36,10 @@ class Game {
 
     reset() {
         this.roundsWon = 0;
+        console.log("game reset")
     }
 
-    
+
 }
 
 const game = new Game();
