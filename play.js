@@ -16,12 +16,15 @@ class Game {
     generateComputerItem() {
         let comp = Math.floor(Math.random() * 3) + 1;
         if(comp === 1) {
+            this.computerItem = "rock";
             return "rock";
         }
         if(comp === 2) {
+            this.computerItem = "paper";
             return "paper";
         }
         if(comp === 3) {
+            this.computerItem = "scissors";
             return "scissors";
         }
     }
@@ -43,12 +46,39 @@ class Game {
         let computerItem = this.generateComputerItem();
         if(choice === "rock") {
             console.log("rock selected");
+            if(computerItem ==="rock") {
+                this.tie();
+            }
+            if(computerItem ==="paper") {
+                this.computerWin();
+            }
+            if(computerItem ==="scissors") {
+                this.playerWin();
+            }
         }
         if(choice === "paper") {
             console.log("paper selected");
+            if(computerItem ==="rock") {
+                this.playerWin();
+            }
+            if(computerItem ==="paper") {
+                this.tie();
+            }
+            if(computerItem ==="scissors") {
+                this.computerWin();
+            }
         }
         if(choice === "scissors") {
             console.log("scissors selected");
+            if(computerItem ==="rock") {
+                this.computerWin();
+            }
+            if(computerItem ==="paper") {
+                this.playerWin();
+            }
+            if(computerItem ==="scissors") {
+                this.tie();
+            }
         }
     }
 
@@ -63,6 +93,20 @@ class Game {
     scissorsSelected(){
         this.playerChoiceSelected("scissors")
     }
+
+    tie() {
+        console.log("computer selected " + this.computerItem + " it was a tie");
+    }
+
+    computerWin() {
+        console.log("computer selected " + this.computerItem + " computer won")
+    }
+
+    playerWin() {
+        console.log("computer selected " + this.computerItem + " you won!")
+    }
+
+    
 
 
 }
