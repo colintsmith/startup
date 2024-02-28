@@ -105,6 +105,7 @@ class Game {
         console.log("computer selected " + this.computerItem + " computer won");
         const answerBox = document.getElementById("answerBox");
         answerBox.textContent = this.computerItem + " you lost";
+        this.changeRoundsWon();
     }
 
     playerWin() {
@@ -112,8 +113,13 @@ class Game {
         console.log("computer selected " + this.computerItem + " you won!");
         const answerBox = document.getElementById("answerBox");
         answerBox.textContent = this.computerItem + " you Won!";
+        this.changeRoundsWon();
     }
 
+    changeRoundsWon() {
+        const roundsWonNumber = document.getElementById("count");
+        roundsWonNumber.textContent = this.roundsWon;
+    }
     
 
 
