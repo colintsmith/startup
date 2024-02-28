@@ -40,7 +40,7 @@ class Game {
     }
 
     playerChoiceSelected(choice) {
-        //let computerItem = generateComputerItem();
+        let computerItem = this.generateComputerItem();
         if(choice === "rock") {
             console.log("rock selected");
         }
