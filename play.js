@@ -11,6 +11,8 @@ class Game {
         this.computerItem = 0;
         this.roundsWon = 0;
         console.log("game initiated");
+        const name = document.getElementById("playerName");
+        name.textContent = this.getPlayerName();
     }
 
     generateComputerItem() {
@@ -30,7 +32,7 @@ class Game {
     }
 
     getPlayerName() {
-        return localStorage.getItem('userName') ?? 'Mystery player';
+        return localStorage.getItem('userName') ?? 'guest player';
     }
     
     updateRoundsWon() {
