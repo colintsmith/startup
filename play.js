@@ -99,10 +99,12 @@ class Game {
     }
 
     computerWin() {
+        this.roundsWon = 0;
         console.log("computer selected " + this.computerItem + " computer won")
     }
 
     playerWin() {
+        this.roundsWon++;
         console.log("computer selected " + this.computerItem + " you won!")
     }
 
