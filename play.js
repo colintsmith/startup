@@ -83,29 +83,35 @@ class Game {
     }
 
     rockSelected() {
-        this.playerChoiceSelected("rock")
+        this.playerChoiceSelected("rock");
     }
 
     paperSelected(){
-        this.playerChoiceSelected("paper")
+        this.playerChoiceSelected("paper");
     }
 
     scissorsSelected(){
-        this.playerChoiceSelected("scissors")
+        this.playerChoiceSelected("scissors");
     }
 
     tie() {
         console.log("computer selected " + this.computerItem + " it was a tie");
+        const answerBox = document.getElementById("answerBox");
+        answerBox.textContent = this.computerItem + " it was a tie";
     }
 
     computerWin() {
         this.roundsWon = 0;
-        console.log("computer selected " + this.computerItem + " computer won")
+        console.log("computer selected " + this.computerItem + " computer won");
+        const answerBox = document.getElementById("answerBox");
+        answerBox.textContent = this.computerItem + " you lost";
     }
 
     playerWin() {
         this.roundsWon++;
-        console.log("computer selected " + this.computerItem + " you won!")
+        console.log("computer selected " + this.computerItem + " you won!");
+        const answerBox = document.getElementById("answerBox");
+        answerBox.textContent = this.computerItem + " you Won!";
     }
 
     
