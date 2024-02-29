@@ -45,3 +45,17 @@ indext.html
 play.html  
 scores.html  
 about.html  
+
+### Javascript Pages
+
+I created three javascript pages for this assignment to add funcitonality to my website. Now the website should work with rock paper scissors against a computer and update the high scores to the sores page. I also updated the HTML code and some CSS code to make sure my functionality worked.  
+The following pages were created:  
+login.js  
+scores.js  
+play.js  
+I updated the following pages:  
+index.html  
+play.html  
+scores.html  
+about.html  
+main.css  
