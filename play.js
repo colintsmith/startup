@@ -36,7 +36,7 @@ class Game {
     }
     
     updateRoundsWon() {
-        roundsWon++;
+        this.roundsWon++;
     }
 
     reset() {
@@ -99,14 +99,15 @@ class Game {
     tie() {
         console.log("computer selected " + this.computerItem + " it was a tie");
         const answerBox = document.getElementById("answerBox");
-        answerBox.textContent = this.computerItem + " it was a tie";
+        answerBox.textContent = this.computerItem + ", it was a tie";
     }
 
     computerWin() {
+        this.saveScores();
         this.roundsWon = 0;
         console.log("computer selected " + this.computerItem + " computer won");
         const answerBox = document.getElementById("answerBox");
-        answerBox.textContent = this.computerItem + " you lost";
+        answerBox.textContent = this.computerItem + ", you lost";
         this.changeRoundsWon();
     }
 
@@ -114,7 +115,7 @@ class Game {
         this.roundsWon++;
         console.log("computer selected " + this.computerItem + " you won!");
         const answerBox = document.getElementById("answerBox");
-        answerBox.textContent = this.computerItem + " you Won!";
+        answerBox.textContent = this.computerItem + ", you Won!";
         this.changeRoundsWon();
     }
 
@@ -122,6 +123,76 @@ class Game {
         const roundsWonNumber = document.getElementById("count");
         roundsWonNumber.textContent = this.roundsWon;
     }
+
+
+    saveScores() {
+        const name = this.getPlayerName();
+        let scores = [];
+        const scoresText = localStorage.getItem('scores');
+        if (scoresText) {
+            scores = JSON.parse(scoresText);
+            console.log(scores)
+        }
+        scores = this.updateScores(name, this.roundsWon, scores);
+        localStorage.setItem('scores', JSON.stringify(scores));
+        //const st = localStorage.getItem('scores');
+        //if(st) {
+        //    s = JSON.parse(st);
+        //    console.log(s);
+        //}
+        //else {
+        //    console.log('nothing in local storage')
+        //}
+        console.log('end save scores');
+    }
+    /*
+    updateScores(userName, score, scores) {
+        const date = new Date().toLocaleDateString();
+        const newScore = { name: userName, score: score, date: date };
+        let alreadyPlayed = false;
+        for (const [i, prevScore] of scores.entries()) {
+            if (score > prevScore.score) {
+              scores.splice(i, 0, newScore);
+              found = true;
+              break;
+            }
+        }
+        if(alreadyPlayed===true) {
+            scores.push(newScore);
+        }
+        if (scores.length > 7) {
+            scores.length = 7;
+        }
+        console.log('end update scores');
+        return scores;
+    }*/
+    updateScores(userName, score, scores) {
+        const date = new Date().toLocaleDateString();
+        const newScore = { name: userName, score: score, date: date };
+
+        let inserted = false; 
+
+        for (const [i, prevScore] of scores.entries()) {
+            if (score > prevScore.score) {
+                scores.splice(i, 0, newScore); 
+                inserted = true;
+                break;
+            }
+        }
+
+        // If the new score hasn't been inserted, push it to the end
+        if (!inserted) {
+            scores.push(newScore);
+        }
+
+        if (scores.length > 7) {
+            scores.length = 7;
+        }
+        console.log('end update scores');
+        return scores;
+    }
+
+    
     
 
 

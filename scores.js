@@ -3,6 +3,7 @@ function Scores() {
     const scoresText = localStorage.getItem('scores');
     if (scoresText) {
         scores = JSON.parse(scoresText);
+        console.log(scores);
     }
 
     const tableScores = document.querySelector('#scores');
