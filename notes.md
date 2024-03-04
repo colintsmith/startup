@@ -360,3 +360,34 @@ if you use 'function' to create a function, DO NOT USE AN EQUALS SIGN, GO STRAIG
 For CSS: if no dot, that is the actual element name. After the dot it is the class name  
 
 IF NO AWAIT AND THERE IS A PROMISE, THE THING WONT WAIT FOR THE PROMISE AND WILL CONTINUE WITH REST OF CODE.
+
+# The internet
+
+## TCP/IP layers  
+
+Applicatoin - HTTPS  
+Transport - TCP  
+Internet - IP  
+Link - fiber  
+
+## URL  
+
+scheme - https  
+domain name - byu.edu  
+port - 3000  
+Path -/something/something  
+parameter - filter=names&highlight=intro,summary  
+anchor - summary  
+
+## ports
+
+20	File Transfer Protocol (FTP) for data transfer
+22	Secure Shell (SSH) for connecting to remote devices
+25	Simple Mail Transfer Protocol (SMTP) for sending email
+53	Domain Name System (DNS) for looking up IP addresses
+80	Hypertext Transfer Protocol (HTTP) for web requests
+110	Post Office Protocol (POP3) for retrieving email
+123	Network Time Protocol (NTP) for managing time
+161	Simple Network Management Protocol (SNMP) for managing network devices such as routers or printers
+194	Internet Relay Chat (IRC) for chatting
+443	HTTP Secure (HTTPS) for secure web requests
