@@ -391,3 +391,10 @@ anchor - summary
 161	Simple Network Management Protocol (SNMP) for managing network devices such as routers or printers
 194	Internet Relay Chat (IRC) for chatting
 443	HTTP Secure (HTTPS) for secure web requests
+
+## Express  
+Express provides support for:  
+Routing requests for service endpoints  
+Manipulating HTTP requests with JSON body content  
+Generating HTTP responses  
+Using middleware to add functionality  
