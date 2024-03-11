@@ -59,3 +59,8 @@ play.html
 scores.html  
 about.html  
 main.css  
+
+
+### Service deliverable
+
+I created an HTTP service using Node.js and express. The frontend is served using Express middlewear which calls third party service endpoints. I changed my previous files so all files completed previously were put into the "public" directory. The only one that was changed was the "scores.js" to be able to interact with the front end service calls. The new file I created is called "index.js" which completes assignment as previously described. 
