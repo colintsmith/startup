@@ -1,20 +1,17 @@
 async function loadScores() {
     let scores = [];
     try {
-      // Get the latest high scores from the service
       const response = await fetch('/api/scores');
       scores = await response.json();
   
-      // Save the scores in case we go offline in the future
       localStorage.setItem('scores', JSON.stringify(scores));
-    } catch {
-      // If there was an error then just use the last saved scores
+    } 
+    catch {
       const scoresText = localStorage.getItem('scores');
       if (scoresText) {
         scores = JSON.parse(scoresText);
       }
     }
-  
     displayScores(scores);
   }
 
