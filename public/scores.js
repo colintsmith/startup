@@ -3,7 +3,6 @@ async function loadScores() {
     try {
       const response = await fetch('/api/scores');
       scores = await response.json();
-  
       localStorage.setItem('scores', JSON.stringify(scores));
     } 
     catch {
@@ -14,9 +13,6 @@ async function loadScores() {
     }
     displayScores(scores);
   }
-
-
-
 
 function Scores() {
     let scores = [];
