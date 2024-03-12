@@ -146,7 +146,7 @@ class Game {
         console.log('end save scores');
     }
     async saveScore(){
-        score = this.roundsWon
+        score = this.roundsWon;
         const userName = this.getPlayerName();
         const date = new Date().toLocaleDateString();
         const newScore = {name: userName, score: score, date: date};
