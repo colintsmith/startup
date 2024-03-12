@@ -126,6 +126,7 @@ class Game {
 
 
     saveScores() {
+        console.log('fetch didnt work, just tracking locally');
         const name = this.getPlayerName();
         let scores = [];
         const scoresText = localStorage.getItem('scores');
