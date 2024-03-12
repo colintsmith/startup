@@ -146,10 +146,10 @@ class Game {
         console.log('end save scores');
     }
     async saveScore(){
-        score = this.roundsWon;
+        let scoreName = this.roundsWon;
         const userName = this.getPlayerName();
         const date = new Date().toLocaleDateString();
-        const newScore = {name: userName, score: score, date: date};
+        const newScore = {name: userName, score: scoreName, date: date};
 
         try {
             const response = await fetch('/api/score', {
