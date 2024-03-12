@@ -5,6 +5,8 @@ const port = process.argv.length > 2 ? process.argv[2] : 3000;
 app.use(express.json());
 app.use(express.static('public'));
 
+let scores = [];
+
 var apiRouter = express.Router();
 app.use(`/api`, apiRouter);
 
@@ -24,22 +26,23 @@ app.listen(port, () => {
     console.log(`Listening on port ${port}`);
 });
 
-let scores = [];
-function updateScores(newScore, scores) {
-  let searchScore = false;
-  for (const [i, prevScore] of scores.entries()) {
-    if (newScore.score > prevScore.score) {
-      scores.splice(i, 0, newScore);
-      searchScore = true;
-      break;
-    }
-  }
-  if (!searchScore) {
-    scores.push(newScore);
-  }
-  if (scores.length > 7) {
-    scores.length = 7;
-  }
 
-  return scores;
+function updateScores(newScore, scores) {
+    console.log('update scores reached!!! something went bad after this')
+    let searchScore = false;
+    for (const [i, prevScore] of scores.entries()) {
+        if (newScore.score > prevScore.score) {
+            scores.splice(i, 0, newScore);
+            searchScore = true;
+            break;
+        }
+    }
+    if (!searchScore) {
+        scores.push(newScore);
+    }
+    if (scores.length > 7) {
+        scores.length = 7;
+    }
+
+    return scores;
 }
