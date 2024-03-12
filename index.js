@@ -34,7 +34,7 @@ function updateScores(newScore, scores) {
       break;
     }
   }
-  if (!searchscore) {
+  if (!searchScore) {
     scores.push(newScore);
   }
   if (scores.length > 7) {
