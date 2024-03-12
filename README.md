@@ -63,4 +63,5 @@ main.css
 
 ### Service deliverable
 
-I created an HTTP service using Node.js and express. The frontend is served using Express middlewear which calls third party service endpoints. I changed my previous files so all files completed previously were put into the "public" directory. The only one that was changed was the "scores.js" to be able to interact with the front end service calls. The new file I created is called "index.js" which completes assignment as previously described. 
+I created an HTTP service using Node.js and express. The frontend is served using Express middlewear which calls third party service endpoints. I changed my previous files so all files completed previously were put into the "public" directory. The only one that was changed was the "scores.js" to be able to interact with the front end service calls. The new file I created is called "index.js" which completes assignment as previously described.  
+As part of this assignment I also created the about.js file which helps call a third party endpoint to display a random picture to about.html which was also updated to call the previous file. 
