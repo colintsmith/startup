@@ -164,7 +164,8 @@ class Game {
           } catch {
             // If there was an error then just track scores locally
             //this.updateScoresLocal(newScore);
-            console.log('something went wrong in saveScore')
+            this.saveScores();
+            console.log('something went wrong in saveScore');
           }
     }
     /*
