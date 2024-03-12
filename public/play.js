@@ -162,6 +162,7 @@ class Game {
             // Store what the service gave us as the high scores
             const scores = await response.json();
             localStorage.setItem('scores', JSON.stringify(scores));
+            console.log('successfully completed fetch!');
           } catch {
             // If there was an error then just track scores locally
             //this.updateScoresLocal(newScore);
