@@ -404,3 +404,24 @@ Using middleware to add functionality
 Same origin policy - only allows JavaScript to make requests to a domain if it is the same domain that the user is currently viewing.  
 Cross origin research sharing -  allows the client to specify the origin of a request and then let the server respond with what origins are allowed.  
 access-control-allow-origin: * - means anybody can send an HTTP request
+
+## Service daemons and PM 2  
+Daemon means that it runs even while the console is off. PM 2 helps you do that  
+pm2 ls-	List all of the hosted node processes  
+pm2 monit-	Visual monitor  
+pm2 start index.js -n simon-	Add a new process with an explicit name  
+pm2 start index.js -n startup -- 4000	Add a new process with an explicit name and port parameter  
+pm2 stop simon-	Stop a process  
+pm2 restart simon-	Restart a process  
+pm2 delete simon-	Delete a process from being hosted  
+pm2 delete all-	Delete all processes  
+pm2 save-	Save the current processes across reboot  
+pm2 restart all-	Reload all of the processes  
+pm2 restart simon --update-env	Reload process and update the node version to the current environment definition  
+pm2 update-	Reload pm2  
+pm2 start env.js --watch --ignore-watch="node_modules"-	Automatically reload service when index.js changes  
+pm2 describe simon-	Describe detailed process information  
+pm2 startup-	Displays the command to run to keep PM2 running after a reboot.  
+pm2 logs simon-	Display process logs  
+pm2 env 0-	Display environment variables for process. Use pm2 ls to get the process ID  
+
