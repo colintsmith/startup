@@ -398,3 +398,9 @@ Routing requests for service endpoints
 Manipulating HTTP requests with JSON body content  
 Generating HTTP responses  
 Using middleware to add functionality  
+
+
+## SOP notes and CORS  
+Same origin policy - only allows JavaScript to make requests to a domain if it is the same domain that the user is currently viewing.  
+Cross origin research sharing -  allows the client to specify the origin of a request and then let the server respond with what origins are allowed.  
+access-control-allow-origin: * - means anybody can send an HTTP request
