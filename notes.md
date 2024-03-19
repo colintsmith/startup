@@ -427,4 +427,13 @@ pm2 env 0-	Display environment variables for process. Use pm2 ls to get the proc
 
 
 ## Data services  
-Mongo DB is a non sql language that we are going to use for data services. Json
+Mongo DB is a non sql language that we are going to use for data services. Json object is core data model.no rigid structure.
+find all houses: db.house.find();
+
+find houses with two or more bedrooms: db.house.find({ beds: { $gte: 2 } });
+
+find houses that are available with less than three beds: db.house.find({ status: 'available', beds: { $lt: 3 } });
+
+find houses with either less than three beds or less than $1000 a night: db.house.find({ $or: [(beds: { $lt: 3 }), (price: { $lt: 1000 })] });
+
+find houses with the text 'modern' or 'beach' in the summary: db.house.find({ summary: /(modern|beach)/i });
