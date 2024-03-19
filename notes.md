@@ -425,3 +425,6 @@ pm2 startup-	Displays the command to run to keep PM2 running after a reboot.
 pm2 logs simon-	Display process logs  
 pm2 env 0-	Display environment variables for process. Use pm2 ls to get the process ID  
 
+
+## Data services  
+Mongo DB is a non sql language that we are going to use for data services. Json
