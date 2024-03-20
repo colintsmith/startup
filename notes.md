@@ -437,3 +437,10 @@ find houses that are available with less than three beds: db.house.find({ status
 find houses with either less than three beds or less than $1000 a night: db.house.find({ $or: [(beds: { $lt: 3 }), (price: { $lt: 1000 })] });
 
 find houses with the text 'modern' or 'beach' in the summary: db.house.find({ summary: /(modern|beach)/i });
+
+
+## Authorization 
+For authorization you usually store an auth token as a cookie. SSO means you use one sign on for multiple applications (like asking google sign on for some random application)
+
+## account creation and login
+Usually this requires two service endpoints: one to create authenticaiton credential, and the other to authenticat efor future visits. getMe endpoint suually gives information about currently authenticated user.
