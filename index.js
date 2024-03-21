@@ -1,7 +1,10 @@
+const cookieParser = require('cookie-parser');
+const bcrypt = require('bcrypt');
 const express = require('express');
 const app = express();
+const DB = require('./database.js');
 
-const port = process.argv.length > 2 ? process.argv[2] : 3000;
+const port = process.argv.length > 2 ? process.argv[2] : 4000;
 app.use(express.json());
 app.use(express.static('public'));
 
@@ -46,3 +49,4 @@ function updateScores(newScore, scores) {
 
     return scores;
 }
+// adding a random note to the bottom
