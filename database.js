@@ -13,7 +13,7 @@ const scoreCollection = db.collection('score');
 (async function testConnection() {
   await client.connect();
   await db.command({ ping: 1 });
-  consol.log('connected good job');
+  console.log('connected good job');
 })().catch((ex) => {
   console.log(`Unable to connect to database with ${url} because ${ex.message}`);
   process.exit(1);
