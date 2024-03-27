@@ -115,28 +115,28 @@ secureApiRouter.get('/scores', async (req, res) => {
 
 //below this is old code
 
-let scores = [];
+//let scores = [];
 
 
 
-apiRouter.get('/scores', (_req, res) => {
+/*apiRouter.get('/scores', (_req, res) => {
     res.send(scores);
   });
 apiRouter.post('/score', (req, res) => {
     scores = updateScores(req.body, scores);
     res.send(scores);
-});
+});*/
 
-app.use((_req, res) => {
+/*app.use((_req, res) => {
     res.sendFile('index.html', { root: 'public' });
-});
+});*/
 
 app.listen(port, () => {
     console.log(`Listening on port ${port}`);
 });
 
 
-function updateScores(newScore, scores) {
+/*function updateScores(newScore, scores) {
     console.log('update scores reached!!! something went bad after this')
     let searchScore = false;
     for (const [i, prevScore] of scores.entries()) {
@@ -154,5 +154,5 @@ function updateScores(newScore, scores) {
     }
 
     return scores;
-}
+}*/
 // adding a random note to the bottom
